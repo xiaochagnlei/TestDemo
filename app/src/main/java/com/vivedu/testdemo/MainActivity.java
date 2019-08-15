@@ -12,9 +12,12 @@ import java.util.HashSet;
 
 public class MainActivity extends AppCompatActivity {
 
+    private static final String TAG = MainActivity.class.getSimpleName();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        Log.e(TAG,"master");
         setContentView(R.layout.activity_main);
         /*new Thread(){
             @Override
