@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.e(TAG,"master");
+        Log.e(TAG, "master");
+        Log.e(TAG, "this is secondly change");
         setContentView(R.layout.activity_main);
         /*new Thread(){
             @Override
